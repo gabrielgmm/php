@@ -27,16 +27,16 @@ class PagSeguroConfigWrapper
     {
         $PagSeguroConfig = array();
 
-        $PagSeguroConfig['environment'] = "production"; // production, sandbox
+        $PagSeguroConfig['environment'] = "sandbox"; // production, sandbox
 
         $PagSeguroConfig['credentials'] = array();
-        $PagSeguroConfig['credentials']['email'] = "your_pagseguro_email";
+        $PagSeguroConfig['credentials']['email'] = "gabrieldemedeiros83@gmail.com";
         $PagSeguroConfig['credentials']['token']['production'] = "your_production_pagseguro_token";
-        $PagSeguroConfig['credentials']['token']['sandbox'] = "your_sandbox_pagseguro_token";
+        $PagSeguroConfig['credentials']['token']['sandbox'] = "E6FBABE6EBCD495F9F0324646F44BBAC";
         $PagSeguroConfig['credentials']['appId']['production'] = "your__production_pagseguro_application_id";
-        $PagSeguroConfig['credentials']['appId']['sandbox'] = "your_sandbox_pagseguro_application_id";
+        $PagSeguroConfig['credentials']['appId']['sandbox'] = "app3743210937";
         $PagSeguroConfig['credentials']['appKey']['production'] = "your_production_application_key";
-        $PagSeguroConfig['credentials']['appKey']['sandbox'] = "your_sandbox_application_key";
+        $PagSeguroConfig['credentials']['appKey']['sandbox'] = "0538E924A9A93F9DD4177FBD3B2C3537";
 
         $PagSeguroConfig['application'] = array();
         $PagSeguroConfig['application']['charset'] = "UTF-8"; // UTF-8, ISO-8859-1
